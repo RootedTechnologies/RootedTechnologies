@@ -44,16 +44,4 @@
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/main/webapp/resources/css/bootstrap.css</name>
-			<type>1</type>
-			<location>D:/Websites/RootedTechnologies/bootstrap/css/bootstrap.css</location>
-		</link>
-		<link>
-			<name>src/main/webapp/resources/javascript/bootstrap.js</name>
-			<type>1</type>
-			<location>D:/Websites/RootedTechnologies/bootstrap/js/bootstrap.js</location>
-		</link>
-	</linkedResources>
 </projectDescription>
