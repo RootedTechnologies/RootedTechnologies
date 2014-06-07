@@ -36,7 +36,7 @@ public class ContactUsController {
 	@RequestMapping(value = "/contactus/message", method = RequestMethod.POST)
 	public ModelAndView contactus(String message)
 	{
-		_ms.sendInfoMail("John Doe", "engineer@petrol.com", "Java Spring MVC", "Petroleum Company Website", "We need a new website for our dallas based petroleum company");
+		_ms.sendInfoMail("John Doe", "dunlapc308@gmail.com", "Java Spring MVC", "Petroleum Company Website", "We need a new website for our dallas based petroleum company");
 		return new ModelAndView("thankyou");
 	}
 }
