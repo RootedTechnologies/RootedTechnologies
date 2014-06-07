@@ -16,5 +16,10 @@
 		<jsp:include page="shared/twitter-panel.jsp" />
 		<jsp:include page="shared/footer.jsp" />
 	</div>
+	
+	<script type="text/javascript">
+		$(".navLink").removeClass("current");
+		$(".navLink.home").addClass("current");
+	</script>
 </body>
 </html>

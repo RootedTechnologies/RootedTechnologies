@@ -851,8 +851,8 @@ form small {
 #logo {
     position: relative;
     float: left;
-    height: 120px;
-    max-width: 230px;
+    height: 85px;
+    max-width: 600px;
     margin-right: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
@@ -1842,7 +1842,7 @@ html[xmlns] .slider-wrap {display: block;}
 #top-search form { margin: 0; }
 
 #top-search input {
-    width: 131px;
+    width: 160px;
     background-image: url("../images/icons/search.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -6439,7 +6439,10 @@ a.twitter-follow-me:hover,
     padding-right: 0;
 }
 
-.stretched #copyrights { margin-bottom: -20px; }
+.stretched #copyrights { 
+	/*margin-bottom: -20px;*/
+	padding: 10px; 
+	}
 
 
 

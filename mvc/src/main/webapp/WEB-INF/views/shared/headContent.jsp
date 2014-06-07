@@ -7,6 +7,7 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./resources/images/favicon.ico" sizes="16x16 32x32 64x64 110x110" type="image/vnd.microsoft.icon">
 
 	<link href="./resources/css/style.css" rel="stylesheet" />
 	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Open+Sans:400,300,600,700" rel="stylesheet" />

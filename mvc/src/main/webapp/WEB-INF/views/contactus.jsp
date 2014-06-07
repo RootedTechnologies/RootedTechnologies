@@ -43,9 +43,7 @@
 							Send us an <span>Email</span>
 						</h2>
 						<div id="contact-form-result"></div>
-						<form class="nobottommargin" id="template-contactform"
-							name="template-contactform" action="functions/sendemail.php"
-							method="post">
+						<form class="nobottommargin" id="template-contactform" name="template-contactform" action="./contactus/message" method="post">
 							<div class="col_one_third nobottommargin">
 								<label for="template-contactform-name">Name <small>*</small></label>
 								<input type="text" id="template-contactform-name"
@@ -59,14 +57,13 @@
 									class="required email input-block-level" />
 							</div>
 							<div class="col_one_third nobottommargin col_last">
-								<label for="template-contactform-service">Services</label> <select
-									id="template-contactform-service"
-									name="template-contactform-service" class="input-block-level">
+								<label for="template-contactform-service">Services</label> 
+								<select id="template-contactform-service" name="template-contactform-service" class="input-block-level">
 									<option value="">-- Select One --</option>
 									<option value="Wordpress">Wordpress</option>
-									<option value="PHP / MySQL">PHP / MySQL</option>
-									<option value="HTML5 / CSS3">HTML5 / CSS3</option>
-									<option value="Graphic Design">Graphic Design</option>
+									<option value="Java/Spring MVC Modifications">Java/Spring MVC Web Site</option>
+									<option value=".NET MVC Web Site Modifications">.NET MVC Web Site</option>
+									<option value="New Website">Startup Web Site</option>
 								</select>
 							</div>
 							<div class="clear"></div>
@@ -116,15 +113,7 @@
 							<span class="fa fa-envelope-o"></span>
 							<h3>Email Address</h3>
 							<p>
-								info@coworker.com
-							</p>
-						</div>
-						<div class="product-feature">
-							<span class="fa fa-heart-o"></span>
-							<h3>Need Support? Get It!</h3>
-							<p>
-								<a href="#">Support Center</a><br />
-								<a href="#">Our Forums</a>
+								info@rootedtechnologies.com
 							</p>
 						</div>
 					</div>
@@ -133,6 +122,9 @@
 		</div>
 		
 		<script type="text/javascript">
+		$(".navLink").removeClass("current");
+		$(".navLink.contactUs").addClass("current");
+			
 			$("#template-contactform").validate({
 				submitHandler : function(form) {
 					$(form).find('.btn').prepend('<i class="fa fa-spinner fa-spin"></i>').addClass('disabled').attr('disabled','disabled');

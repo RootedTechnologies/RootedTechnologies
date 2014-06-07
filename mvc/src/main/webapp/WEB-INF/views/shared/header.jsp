@@ -9,14 +9,14 @@
 		</div>
 		<div class="sticky-menu-wrap">
 			<ul>
-				<li class="current"><a href="./">Home</a></li>
-				<li><a href="./portfolio">Portfolio</a>
+				<li class="navLink home"><a href="./">Home</a></li>
+				<li class="navLink portfolio"><a href="./portfolio">Portfolio</a>
 					<ul>
 						<li><a href="http://theworshipinitiative.com">The Worship
 								Initiative</a></li>
 					</ul></li>
-				<li><a href="./aboutus">About</a></li>
-				<li><a href="./contactus">Contact</a></li>
+				<li class="navLink about"><a href="./aboutus">About</a></li>
+				<li class="navLink contactus"><a href="./contactus">Contact Us</a></li>
 			</ul>
 		</div>
 		<div class="sticky-search-area">
@@ -55,11 +55,12 @@
 <div id="header" class="header3">
 	<div class="container clearfix">
 		<div id="logo">
-			<a href="index.html" class="standard-logo"><img
-				src="./resources/images/logo.png" alt="CoWorker" title="CoWorker" /></a> <a
-				href="index.html" class="retina-logo"><img
-				src="./resources/images/logo@2x.png" alt="CoWorker" title="CoWorker" width="204"
-				height="120" /></a>
+			<a href="index.html" class="standard-logo">
+				<img src="./resources/images/logo-large.png" alt="RootedTechnologies" title="RootedTechnologies" width="600" height="85"/>
+			</a>
+			<a href="index.html" class="retina-logo">
+				<img src="./resources/images/logo-large.png" alt="RootedTechnologies" title="RootedTechnologies" width="850" height="126" />
+			</a>
 		</div>
 		<div id="top-search">
 			<form id="top-search-form" action="search-results.html" method="get">
@@ -74,9 +75,14 @@
 				<i class="fa fa-align-justify"></i>
 			</div>
 			<ul id="main-menu">
-				<li class="current"><a href="./">Home</a></li>
-				<li><a href="./portfolio">Portfolio</a></li>
-				<li><a href="./contactus">Contact Us</a></li>
+				<li class="navLink home"><a href="./">Home</a></li>
+				<li class="navLink portfolio"><a href="./portfolio">Portfolio</a>
+					<ul>
+						<li><a href="http://theworshipinitiative.com">The Worship Initiative</a></li>
+					</ul>
+				</li>
+				<li class="navLink about"><a href="./aboutus">About</a></li>
+				<li class="navLink contactUs"><a href="./contactus">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>
