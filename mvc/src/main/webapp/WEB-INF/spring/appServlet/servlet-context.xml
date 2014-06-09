@@ -22,4 +22,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="com.rootedtechnologies" />
+	
+	<context:property-placeholder location="classpath:rootedtechnologies.properties" />
+	
 </beans:beans>

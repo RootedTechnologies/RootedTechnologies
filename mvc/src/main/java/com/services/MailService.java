@@ -19,8 +19,6 @@ public class MailService {
 	
 	protected MailSender mailSender;
 	
-	private static final String tst = "Clifton2024";
-	
 	public void setMailSender(MailSender mailSender){
 		this.mailSender = mailSender;
 	}
@@ -37,18 +35,18 @@ public class MailService {
 	
 	public void sendInfoMail(String fromName, String fromEmail, String services, String subject, String message)
 	{
-		Properties props = new Properties();
-		final String username = "rootedtechnologies@gmail.com";
-		props.put("mail.smtp.user", username);
-		props.put("mail.smtp.host", "smtp.gmail.com");
-		props.put("mail.transport.protocol", "smtp");
-		props.put("mail.smtp.port", "587");
-		props.put("mail.smtp.auth", "true");
-		props.setProperty("mail.smtp.port",  "587");
-
-        props.put("mail.smtp.starttls.enable","true");
-        props.put("mail.smtp.timeout", "1000");
-        props.put("mail.smtp.connectiontimeout", "1000");
+		
+//		final String username = "rootedtechnologies@gmail.com";
+//		props.put("mail.smtp.user", username);
+//		props.put("mail.smtp.host", "smtp.gmail.com");
+//		props.put("mail.transport.protocol", "smtp");
+//		props.put("mail.smtp.port", "587");
+//		props.put("mail.smtp.auth", "true");
+//		props.setProperty("mail.smtp.port",  "587");
+//
+//        props.put("mail.smtp.starttls.enable","true");
+//        props.put("mail.smtp.timeout", "1000");
+//        props.put("mail.smtp.connectiontimeout", "1000";
 		Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() { protected PasswordAuthentication getPasswordAuthentication()
 		{
 			return new PasswordAuthentication(username, tst);
@@ -68,17 +66,7 @@ public class MailService {
 			email.setText(body);
 			Transport.send(email);
 			System.out.println("Sent message successfully...");
-			
-		//email.setFrom("info@rootedtechnologies.com");
-		//email.setTo("rootedtechnologies+info@gmail.com");
-		//email.setSubject(subject);
-		//String body = "Name: " + fromName + "\n";
-		//body += "Email: " + fromEmail + "\n";
-		//body += "Services: " + services + "\n";
-		//body += "\n";
-		//body += message;
-		//email.setText(body);
-		//mailSender.send(email);
+
 		}catch (Exception mex)
 		{
 			mex.printStackTrace();
