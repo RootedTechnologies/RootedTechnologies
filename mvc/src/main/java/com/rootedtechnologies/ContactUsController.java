@@ -12,11 +12,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.services.MailService;
+import com.services.*;
+import com.services.models.*;
 
 @Controller
 public class ContactUsController {
@@ -34,9 +36,13 @@ public class ContactUsController {
 	}
 	
 	@RequestMapping(value = "/contactus/message", method = RequestMethod.POST)
-	public ModelAndView contactus(String message)
+	public ModelAndView contactus(@ModelAttribute ("template-contactform-name") String name, 
+			@ModelAttribute ("template-contactform-email") String email,
+			@ModelAttribute ("template-contactform-service") String service, 
+			@ModelAttribute ("template-contactform-subject") String subject, 
+			@ModelAttribute ("template-contactform-message") String message)
 	{
-		_ms.sendInfoMail("John Doe", "dunlapc308@gmail.com", "Java Spring MVC", "Petroleum Company Website", "We need a new website for our dallas based petroleum company");
+		_ms.sendInfoMail(name, email, service, subject, message);
 		return new ModelAndView("thankyou");
 	}
 }

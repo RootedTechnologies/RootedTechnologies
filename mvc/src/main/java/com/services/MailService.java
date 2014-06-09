@@ -68,17 +68,7 @@ public class MailService {
 			email.setText(body);
 			Transport.send(email);
 			System.out.println("Sent message successfully...");
-			
-		//email.setFrom("info@rootedtechnologies.com");
-		//email.setTo("rootedtechnologies+info@gmail.com");
-		//email.setSubject(subject);
-		//String body = "Name: " + fromName + "\n";
-		//body += "Email: " + fromEmail + "\n";
-		//body += "Services: " + services + "\n";
-		//body += "\n";
-		//body += message;
-		//email.setText(body);
-		//mailSender.send(email);
+
 		}catch (Exception mex)
 		{
 			mex.printStackTrace();
