@@ -6474,3 +6474,9 @@ a.twitter-follow-me:hover,
 .entry_content ul.fa-ul { list-style-type: none; }
 
 .fa-li { top: 0 !important; }
+
+/* home page */
+p.info {
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif;
+}

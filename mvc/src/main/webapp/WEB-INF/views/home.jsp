@@ -13,6 +13,28 @@
 	<div id="wrapper" class="clearfix">
 		<jsp:include page="shared/header.jsp" />
 		
+		<div class="content-wrap">
+			<div class="container clearfix">
+<!-- 				<div class="col_one_third"> -->
+				<div>
+					<div>
+					<h2>What do we do?</h2>
+					<div class="clearfix">
+						<p class="info">We are a software development firm who specializes in web and mobile platforms. We are a full-stack software company, meaning that we build systems from the ground up. This includes User Interface design, Database design, back end and front end code development.</p>
+					</div>
+					</div>
+					<br />
+					<h2>Need a custom website?</h2>
+					<div class="clearfix">
+						<p class="info">Whether you need a full blown website built from scratch or have a website that you need a little work on, we can help you.</p>  
+					</div>
+					<div class="clearfix">
+						<p class="info">Send us an email with a few details on the project. We will then contact you to discuss the project further. If we think we can help you, we will set up a time that works for you to go over the project in detail and what needs to be done. We will begin development soon after, keeping you in the loop every step of the way. After all, it's your Website, it should be the way you want it right?</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		<jsp:include page="shared/twitter-panel.jsp" />
 		<jsp:include page="shared/footer.jsp" />
 	</div>

@@ -16,7 +16,7 @@
 					<h4>Contact Us</h4>
 					<div style="background: url('./resources/images/world_map.png') no-repeat center center; height: 100px;">
 						<ul style="font-size: 13px;" class="fa-ul">
-							<li><i class="fa fa-li fa-map-marker"></i>The Colony, TX 75056<br /> United States</li>
+							<li><i class="fa fa-li fa-map-marker"></i>Plano, TX 75074<br /> United States</li>
 							<li><i class="fa fa-li fa-phone"></i>#-(###)-###-####</li>
 <!-- 							<li><i class="fa fa-li fa-envelope-o"></i>info@rootedtechnologies.com</li> -->
 						</ul>

@@ -99,7 +99,7 @@
 							<span class="fa fa-map-marker"></span>
 							<h3>Our Location</h3>
 							<p>
-								The Colony, TX 75056<br /> United States
+								Plano, TX 75074<br /> United States
 							</p>
 						</div>
 						<div class="product-feature">
@@ -144,11 +144,11 @@
 			});
 			
 			$('#google-map').gMap({
-				address : '5717 Arbor Hills Way, The Colony, Texas',
+				address : 'Plano, Texas',
 				maptype : 'ROADMAP',
-				zoom : 14,
+				zoom : 12,
 				markers : [ {
-					address : "5717 Arbor Hills Way, The Colony, Texas",
+					address : "Plano, Texas",
 					html : '<div style="width: 300px;"><h3 style="padding-bottom: 8px;"><span>Rooted</span> Technologies, LLC</h3></div>'
 				} ],
 				doubleclickzoom : false,

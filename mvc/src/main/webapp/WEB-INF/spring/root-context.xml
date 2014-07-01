@@ -6,23 +6,5 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
-	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-		<property name="host" value="smtp.gmail.com" />
-		<property name="port" value="587" />
-		<property name="username" value="rootedtechnologies@gmail.com" />
-		<property name="password" value="" />
-		<property name="javaMailProperties">
-	   		<props>
-       	      <prop key="mail.smtp.auth">true</prop>
-       	      <prop key="mail.smtp.starttls.enable">true</prop>
-       	   </props>
-		</property>
-	</bean>
-	
-	<bean id="mailService" class="com.services.MailService">
-		<property name="mailSender" ref="mailSender" />
-	</bean>
-	
-	<util:properties id="rootedTechnologiesProperties" location="classpath:rootedtechnologies.properties" />
 	
 </beans>
