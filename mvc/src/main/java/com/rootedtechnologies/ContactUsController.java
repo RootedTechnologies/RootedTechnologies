@@ -1,5 +1,6 @@
 package com.rootedtechnologies;
 
+import java.io.IOException;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.microtripit.mandrillapp.lutung.model.MandrillApiError;
 import com.services.*;
 import com.services.models.*;
 
@@ -40,9 +42,15 @@ public class ContactUsController {
 			@ModelAttribute ("template-contactform-email") String email,
 			@ModelAttribute ("template-contactform-service") String service, 
 			@ModelAttribute ("template-contactform-subject") String subject, 
-			@ModelAttribute ("template-contactform-message") String message)
+			@ModelAttribute ("template-contactform-message") String message) 
 	{
-		_ms.sendInfoMail(name, email, service, subject, message);
-		return new ModelAndView("thankyou");
+		try {
+			_ms.sendMail(name, email, service, subject, message);
+			return new ModelAndView("thankyou");
+		}
+		catch(Exception error)
+		{
+			return new ModelAndView("shared/error");
+		}
 	}
 }

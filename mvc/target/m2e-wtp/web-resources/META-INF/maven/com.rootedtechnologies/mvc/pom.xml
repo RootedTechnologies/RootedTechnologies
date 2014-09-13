@@ -108,6 +108,13 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+		
+		<!-- Mandrill -->
+		<dependency>
+    		<groupId>com.mandrillapp.wrapper.lutung</groupId>
+    		<artifactId>lutung</artifactId>
+    		<version>0.0.4</version>
+		</dependency>
 	
 		<!-- Test -->
 		<dependency>

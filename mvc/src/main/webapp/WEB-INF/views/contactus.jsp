@@ -18,13 +18,13 @@
 		<div id="page-title">
 			<div class="container clearfix">
 				<h1>Contact Us</h1>
-				<div id="top-search">
-					<form id="top-search-form" action="search-results.html"
-						method="get">
-						<input type="text" id="top-search-input" name="q" value=""
-							placeholder="Type &amp; Hit Enter" />
-					</form>
-				</div>
+<!-- 				<div id="top-search"> -->
+<!-- 					<form id="top-search-form" action="search-results.html" -->
+<!-- 						method="get"> -->
+<!-- 						<input type="text" id="top-search-input" name="q" value="" -->
+<!-- 							placeholder="Type &amp; Hit Enter" /> -->
+<!-- 					</form> -->
+<!-- 				</div> -->
 			</div>
 		</div>
 		<div id="slider" style="padding: 0;">
@@ -99,7 +99,7 @@
 							<span class="fa fa-map-marker"></span>
 							<h3>Our Location</h3>
 							<p>
-								The Colony, TX 75056<br /> United States
+								Plano, TX 75074<br /> United States
 							</p>
 						</div>
 						<div class="product-feature">
@@ -144,11 +144,11 @@
 			});
 			
 			$('#google-map').gMap({
-				address : '5717 Arbor Hills Way, The Colony, Texas',
+				address : '350 Vistacourt Dr, Plano, Texas',
 				maptype : 'ROADMAP',
 				zoom : 14,
 				markers : [ {
-					address : "5717 Arbor Hills Way, The Colony, Texas",
+					address : "350 Vistacourt Dr, Plano, Texas",
 					html : '<div style="width: 300px;"><h3 style="padding-bottom: 8px;"><span>Rooted</span> Technologies, LLC</h3></div>'
 				} ],
 				doubleclickzoom : false,
