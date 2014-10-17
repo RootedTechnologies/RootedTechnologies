@@ -59,7 +59,7 @@
 				<img src="./resources/images/rooted-logo.png" alt="Rooted Technologies, LLC" title="Rooted Technologies, LLC" width="320" height="85"/>
 			</a>
 			<a href="index.html" class="retina-logo">
-				<img src="./resources/images/logo-large.png" alt="RootedTechnologies" title="RootedTechnologies" width="850" height="126" />
+				<img src="./resources/images/rooted-logox2.png" alt="RootedTechnologies" title="RootedTechnologies" width="320" height="85" />
 			</a>
 		</div>
 <!-- 		<div id="top-search"> -->
