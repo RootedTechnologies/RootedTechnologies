@@ -18,13 +18,13 @@
 		<div id="page-title">
 			<div class="container clearfix">
 				<h1>Contact Us</h1>
-				<div id="top-search">
-					<form id="top-search-form" action="search-results.html"
-						method="get">
-						<input type="text" id="top-search-input" name="q" value=""
-							placeholder="Type &amp; Hit Enter" />
-					</form>
-				</div>
+<!-- 				<div id="top-search"> -->
+<!-- 					<form id="top-search-form" action="search-results.html" -->
+<!-- 						method="get"> -->
+<!-- 						<input type="text" id="top-search-input" name="q" value="" -->
+<!-- 							placeholder="Type &amp; Hit Enter" /> -->
+<!-- 					</form> -->
+<!-- 				</div> -->
 			</div>
 		</div>
 		<div id="slider" style="padding: 0;">

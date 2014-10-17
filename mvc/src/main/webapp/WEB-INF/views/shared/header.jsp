@@ -62,12 +62,12 @@
 				<img src="./resources/images/logo-large.png" alt="RootedTechnologies" title="RootedTechnologies" width="850" height="126" />
 			</a>
 		</div>
-		<div id="top-search">
-			<form id="top-search-form" action="search-results.html" method="get">
-				<input type="text" id="top-search-input" name="top-search" value=""
-					placeholder="Type &amp; Hit Enter to Search" />
-			</form>
-		</div>
+<!-- 		<div id="top-search"> -->
+<!-- 			<form id="top-search-form" action="search-results.html" method="get"> -->
+<!-- 				<input type="text" id="top-search-input" name="top-search" value="" -->
+<!-- 					placeholder="Type &amp; Hit Enter to Search" /> -->
+<!-- 			</form> -->
+<!-- 		</div> -->
 	</div>
 	<div id="primary-menu">
 		<div class="container clearfix">

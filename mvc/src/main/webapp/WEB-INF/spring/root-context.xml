@@ -6,5 +6,16 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
+
+	<!-- Mandrill Production Key -->
+<!-- 	<bean id="mailService" class="com.services.MailService"> -->
+<!-- 		<property name="mandrillApiKey" value="rfb1_jCcxEo4_skPASI3Mg" /> -->
+<!-- 		<property name="infoEmailAddress" value="info@rootedtechnologies.com" /> -->
+<!-- 	</bean> -->
 	
+	<!-- Mandrill Test Key -->
+	<bean id="mailService" class="com.services.MailService">
+		<property name="mandrillApiKey" value="YyVh16-V1DuZV3G-EkmeGQ" />
+		<property name="infoEmailAddress" value="info@rootedtechnologies.com" />
+	</bean>
 </beans>
