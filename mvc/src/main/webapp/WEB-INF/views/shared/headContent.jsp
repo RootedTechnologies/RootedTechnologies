@@ -18,6 +18,7 @@
 	<link href="./resources/css/animate.css" rel="stylesheet" />
 	<link href="./resources/css/magnific-popup.css" rel="stylesheet" />
 	<link href="./resources/css/responsive.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
 	
 	<script src="./resources/javascript/jquery-1.10.2.min.js" ></script>
 	<script src="./resources/javascript/bootstrap.min.js" ></script>
