@@ -438,7 +438,7 @@ span.page-divider span {
 .col_five_sixth {
 	display: block;
 	position: relative;
-	margin-right: 4%;
+	margin-right: 2%;
 	margin-bottom: 30px;
 	float: left;
 }
@@ -605,7 +605,7 @@ form small {
 
 #top-bar {
     position: relative;
-    background-color: #EEE;
+    background-color: #5E523A;
     height: 40px;
 }
 
@@ -773,7 +773,7 @@ form small {
 
 #top-social li.ts-twitter .ts-icon { background: url("../images/icons/social/twitter.png") no-repeat center center; }
 
-#top-social li.ts-gplus a { background-color: #BD3518; }
+#top-social li.ts-gplus a { background-color: #DD4B39; }
 
 #top-social li.ts-gplus .ts-icon { background: url("../images/icons/social/gplus.png") no-repeat center center; }
 
@@ -1807,7 +1807,7 @@ html[xmlns] .slider-wrap {display: block;}
 #page-title,
 #countdown-wrap {
     position: relative;
-    background-color: #F5F5F5;
+    background-color: #706145;
     padding: 25px 0;
     border-top: 1px solid #EEE;
     border-bottom: 1px solid #EEE;
@@ -1817,8 +1817,8 @@ html[xmlns] .slider-wrap {display: block;}
     font-size: 24px;
     line-height: 28px;
     padding-bottom: 0;
-    text-shadow: 1px 1px 1px #FFF;
-    color: #555;
+    text-shadow: 1px 1px 1px #B3B3B3;
+    color: #FFF;
 }
 
 #page-title h1 span {
@@ -5757,7 +5757,7 @@ body > iframe { display: none; }
 }
 
 #footer.footer-dark {
-    background-color: #363839;
+    background-color: #5E523A;
     color: #DDD;
 }
 
@@ -6485,4 +6485,15 @@ a.twitter-follow-me:hover,
 p.info {
 	font-size: 16px;
 	font-family: 'Exo 2', sans-serif;
+}
+
+.company-description {
+	
+}
+
+@media (min-width: 768px)
+{
+	.responsive-image {
+		padding-top: 100px;
+	}
 }
