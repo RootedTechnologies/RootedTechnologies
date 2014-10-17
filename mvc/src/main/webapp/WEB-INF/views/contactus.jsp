@@ -48,13 +48,13 @@
 								<label for="template-contactform-name">Name <small>*</small></label>
 								<input type="text" id="template-contactform-name"
 									name="template-contactform-name" value=""
-									class="required input-block-level" />
+									class="required input-block-level" placeholder="John Smith" />
 							</div>
 							<div class="col_one_third nobottommargin">
 								<label for="template-contactform-email">Email <small>*</small></label>
 								<input type="text" id="template-contactform-email"
 									name="template-contactform-email" value=""
-									class="required email input-block-level" />
+									class="required email input-block-level" placeholder="email@example.com"/>
 							</div>
 							<div class="col_one_third nobottommargin col_last">
 								<label for="template-contactform-service">Services</label> 
@@ -71,13 +71,13 @@
 								<label for="template-contactform-subject">Subject <small>*</small></label>
 								<input type="text" id="template-contactform-subject"
 									name="template-contactform-subject" value=""
-									class="required input-block-level" />
+									class="required input-block-level" placeholder="Make our website awesome!"/>
 							</div>
 							<div class="col_full nobottommargin">
 								<label for="template-contactform-message">Message <small>*</small></label>
 								<textarea class="required input-block-level"
 									id="template-contactform-message"
-									name="template-contactform-message" rows="10" cols="30"></textarea>
+									name="template-contactform-message" rows="10" cols="30" placeholder="Tell us about your needs and/or your business."></textarea>
 							</div>
 							<div class="col_full nobottommargin hidden">
 								<label for="template-contactform-botcheck">Botcheck</label>
@@ -86,7 +86,7 @@
 									name="template-contactform-botcheck" rows="10" cols="30"></textarea>
 							</div>
 							<div class="col_full nobottommargin">
-								<button class="btn" type="submit"
+								<button class="btn btn-primary" type="submit"
 									id="template-contactform-submit"
 									name="template-contactform-submit" value="submit">Send Message</button>
 							</div>
@@ -106,7 +106,7 @@
 							<span class="fa fa-phone"></span>
 							<h3>Call Us</h3>
 							<p>
-								#-(###)-###-####
+								(754)-307-ROOT
 							</p>
 						</div>
 						<div class="product-feature">

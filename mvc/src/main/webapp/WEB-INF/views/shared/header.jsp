@@ -1,11 +1,12 @@
 <div id="sticky-menu" class="clearfix">
 	<div class="container clearfix">
 		<div class="sticky-logo">
-			<a href="index.html"></a>
+			<a href="index.html"><img src="./resources/images/small-logo.png"
+				alt="Rooted Technologies, LLC" title="Rooted Technologies, LLC" /></a>
 		</div>
-		<div class="sticky-search-trigger">
-			<a href="#"><i class="fa fa-search"></i></a>
-		</div>
+<!-- 		<div class="sticky-search-trigger"> -->
+<!-- 			<a href="#"><i class="fa fa-search"></i></a> -->
+<!-- 		</div> -->
 		<div class="sticky-menu-wrap">
 			<ul>
 				<li class="navLink home"><a href="./">Home</a></li>
@@ -18,15 +19,15 @@
 				<li class="navLink contactus"><a href="./contactus">Contact Us</a></li>
 			</ul>
 		</div>
-		<div class="sticky-search-area">
-			<form id="sticky-search" action="search-results.html" method="get">
-				<input type="text" id="sticky-search-input" name="q"
-					placeholder="Type &amp; Hit Enter" value="" />
-			</form>
-			<div class="sticky-search-area-close">
-				<a href="#"><i class="fa fa-remove"></i></a>
-			</div>
-		</div>
+<!-- 		<div class="sticky-search-area"> -->
+<!-- 			<form id="sticky-search" action="search-results.html" method="get"> -->
+<!-- 				<input type="text" id="sticky-search-input" name="q" -->
+<!-- 					placeholder="Type &amp; Hit Enter" value="" /> -->
+<!-- 			</form> -->
+<!-- 			<div class="sticky-search-area-close"> -->
+<!-- 				<a href="#"><i class="fa fa-remove"></i></a> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
 	</div>
 </div>
 
@@ -55,7 +56,7 @@
 	<div class="container clearfix">
 		<div id="logo">
 			<a href="index.html" class="standard-logo">
-				<img src="./resources/images/logo-large.png" alt="RootedTechnologies" title="RootedTechnologies" width="600" height="85"/>
+				<img src="./resources/images/rooted-logo.png" alt="Rooted Technologies, LLC" title="Rooted Technologies, LLC" width="320" height="85"/>
 			</a>
 			<a href="index.html" class="retina-logo">
 				<img src="./resources/images/logo-large.png" alt="RootedTechnologies" title="RootedTechnologies" width="850" height="126" />

@@ -135,16 +135,16 @@ textarea { font: 12px/20px "Open Sans", Helvetica, Arial, sans-serif; }
 }
 
 ::selection {
-    background: #57B3DF;
+    background: #11b01c;
     color: #fff;
     }
 ::-moz-selection {
-    background: #57B3DF; /* Firefox */
+    background: #11b01c; /* Firefox */
     color: #fff;
 }
 
 ::-webkit-selection {
-	background: #57B3DF; /* Safari */
+	background: #11b01c; /* Safari */
 	color: #fff;
 }
 
@@ -157,7 +157,7 @@ textarea { font: 12px/20px "Open Sans", Helvetica, Arial, sans-serif; }
 
 a {
 	text-decoration: none;
-	color: #57B3DF;
+	color: #11b01c;
 }
 
 a:hover, .selected { color: #222; }
@@ -193,7 +193,7 @@ h2 span,
 h3 span,
 h4 span,
 h5 span,
-h6 span { color: #57B3DF; }
+h6 span { color: #11b01c; }
 
 h3,
 h4,
@@ -985,7 +985,7 @@ form small {
 .sticky-menu-wrap ul li.current,
 .sticky-menu-wrap > ul > li.current-menu-ancestor,
 .sticky-menu-wrap > ul > li.current-menu-parent,
-.sticky-menu-wrap > ul > li.current-menu-item { background: #57B3DF; }
+.sticky-menu-wrap > ul > li.current-menu-item { background: #11b01c; }
 
 #primary-menu ul li.current a,
 #primary-menu > ul > li:hover a,
@@ -4575,7 +4575,7 @@ blockquote.quote-right {
     padding: 12px;
     width: 24px;
     height: 24px;
-    background-color: #57B3DF;
+    background-color: #11b01c;
     border-radius: 24px;
     -moz-border-radius: 24px;
     -webkit-border-radius: 24px;
@@ -5047,7 +5047,13 @@ blockquote.quote-right {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
+.btn.btn-primary {
+	background-color: #11b01c;
+}
 
+.btn.btn-primary:hover {
+	background-color: #0EA119;
+}
 
 button.button {
     margin: 5px 0 !important;
@@ -5747,7 +5753,7 @@ body > iframe { display: none; }
 	position: relative;
 	background-color: #EEE;
 	padding: 40px 30px;
-    border-top: 3px solid #57B3DF;
+    border-top: 3px solid #11b01c;
 }
 
 #footer.footer-dark {
@@ -6275,7 +6281,7 @@ a.twitter-follow-me:hover,
     font-size: 12px;
     background-color: #E5E5E5;
     overflow: hidden;
-    border-top: 1px solid #57B3DF;
+    border-top: 1px solid #11b01c;
     color: #888;
     text-shadow: 1px 1px 1px #FFF;
 }
